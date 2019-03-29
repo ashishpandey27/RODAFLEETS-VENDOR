@@ -1,20 +1,46 @@
 PODS:
+  - Alamofire (4.8.1)
+  - DLRadioButton (1.4.12)
   - IQKeyboardManagerSwift (6.2.0)
   - MarqueeLabel/Swift (3.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - TRON (4.0.0):
+    - Alamofire (~> 4.5)
+    - TRON/SwiftyJSON (= 4.0.0)
+  - TRON/Core (4.0.0):
+    - Alamofire (~> 4.5)
+  - TRON/SwiftyJSON (4.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0)
+    - TRON/Core
 
 DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
   - IQKeyboardManagerSwift
   - MarqueeLabel/Swift
+  - SVProgressHUD
+  - TRON (= 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DLRadioButton
     - IQKeyboardManagerSwift
     - MarqueeLabel
+    - SVProgressHUD
+    - SwiftyJSON
+    - TRON
 
 SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
   MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TRON: 71694d7d590fa7638688b71008510576c293bda3
 
-PODFILE CHECKSUM: 165a2236300510a1ba63da6bdc8db234b3af3f96
+PODFILE CHECKSUM: d187022c2fc7840498d5541ea8db3882796c15fd
 
 COCOAPODS: 1.6.1
